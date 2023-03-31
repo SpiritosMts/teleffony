@@ -1,0 +1,80 @@
+name: teleffony
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  responsive_sizer: ^3.1.0
+  easy_search_bar: ^2.3.1 #filter search
+  flutter_native_splash: any # splash screen when open app $flutter pub run flutter_native_splash:create
+  google_fonts: any
+  url_launcher: ^6.1.10
+  http: any
+  get: any
+  intl: any
+  expansion_tile_card: ^2.0.0 # for cards
+  flutter_sms_inbox: ^1.0.2
+  permission_handler: any
+  substring_highlight: ^1.0.33
+  flutter_launcher_icons: ^0.12.0 #for app icon run: $flutter pub run flutter_launcher_icons
+  shared_preferences: ^2.0.18
+  awesome_dialog: ^3.0.2
+  introduction_screen: ^3.1.4
+  contacts_service: ^0.6.3
+  flutter_animated_dialog: ^2.0.1
+  #collection: ^1.16.0
+  #syncfusion_flutter_datepicker: "20.4.44"
+  vibration: ^1.7.6
+  telephony: ^0.2.0 #listen send SMS
+  tutorial_coach_mark: ^1.2.4
+  ionicons: ^0.2.2 #icons
+
+  path_provider: ^2.0.14
+  flutter_contacts: ^1.1.6
+  image_picker: ^0.8.7+1
+  #path: ^1.8.3
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+flutter_native_splash:
+  color: "#0a1227"
+  image: assets/images/logo.png
+  fullscreen: true
+  andoid: true
+  ios: true
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
+
