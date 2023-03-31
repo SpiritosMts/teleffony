@@ -3,11 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:teleffony/homeScreen_ctr.dart';
 import 'package:teleffony/manager/pickImage.dart';
 import 'package:teleffony/manager/styles.dart';
-import 'package:teleffony/models/categ.dart';
 import 'package:ionicons/ionicons.dart';
 
 class AddCategView extends StatelessWidget {

@@ -5,27 +5,18 @@ import 'package:expansion_tile_card/expansion_tile_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animated_dialog/flutter_animated_dialog.dart';
-import 'package:flutter_sms_inbox/flutter_sms_inbox.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ionicons/ionicons.dart';
-import 'dart:math';
-//import 'package:sms/sms.dart';
-//import 'package:flutter_sms/flutter_purchases.dart';
 import 'package:teleffony/homeScreen_ctr.dart';
 import 'package:teleffony/manager/myLocale/myLocaleCtr.dart';
 import 'package:teleffony/manager/styles.dart';
 import 'package:get/get.dart';
 
-//import 'package:highlight_text/highlight_text.dart';
-import 'package:intl/intl.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'dart:ui' as ui;
 
 import 'package:substring_highlight/substring_highlight.dart';
 import 'package:teleffony/manager/tutoCtr.dart';
 import 'package:teleffony/models/categ.dart';
-import 'package:teleffony/models/conta.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -318,20 +309,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         },
         child: Container(
-            // decoration:  BoxDecoration(
-            //   //shape: BoxShape.circle,
-            //   gradient: LinearGradient(
-            //     begin: Alignment.topLeft,
-            //     end: Alignment.bottomRight,
-            //     stops: [0.0, 0.5, 1.0],
-            //     colors: [primaryColor.withOpacity(0.8), secondaryColor.withOpacity(0.8), accentColor.withOpacity(0.8)],
-            //   ),
-            //    borderRadius: BorderRadius.circular(50),
-            //   // border: Border.all(
-            //   //   color: primaryColor,
-            //   //   width: 0,
-            //   // ),
-            // ),
+
             child: ClipRRect(
               borderRadius: BorderRadius.circular(50),
               child: SizedBox(
@@ -593,11 +571,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-// ElevatedButton(
-// onPressed: () {
-// setState(() {
-// switchAddCateg = !switchAddCateg;
-// });
-// },
-// child: Text('Click'),
-// ),
